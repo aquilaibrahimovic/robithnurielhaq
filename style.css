@@ -14,12 +14,30 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 147%;
+  margin: 0;
+}
+
 p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 140%;
   margin: 0;
 }
 
 a {
   color: inherit;
+  font-size: 17px;
   text-decoration: none;
 }
 
@@ -90,4 +108,118 @@ nav li {
 #subtitle {
   font-size: 32px;
   font-weight: 300;
+}
+
+#cv-section {
+  display: flex;
+  max-width: 980px;
+  width: 100%;
+  padding: 52px 0px 112px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+#education-certification {
+  display: flex;
+  width: 100%;
+  padding: 52px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#cv-section h2 {
+  color: transparent;
+  background: url(images/grad1.png);
+  background-clip: text;
+}
+
+.cv-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.education-box {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1;
+  border-radius: 20px;
+  background: #f5f5f7;
+  width: 100%;
+}
+
+.upercase-part {
+  color: #6e6e73;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.h3-sub {
+  color: #6e6e73;
+  font-weight: 500;
+  line-height: 147%;
+}
+
+.light-link {
+  color: #06c;
+  font-weight: 500;
+  line-height: 147%;
+}
+
+#skills {
+  display: flex;
+  width: 100%;
+  padding-bottom: 52px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.skills-box {
+  display: flex;
+  height: 360px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.skills-box:first-child {
+  background: url(images/skills1.png);
+  background-size: contain;
+}
+
+.skills-box:nth-child(2) {
+  background: url(images/skills2.png);
+  background-size: contain;
+}
+
+.skills-box:nth-child(3) {
+  background: url(images/skills3.png);
+  background-size: contain;
+}
+
+.skills-box:last-child {
+  background: url(images/skills4.png);
+  background-size: contain;
+}
+
+.skills-box p {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.skills-box h3 {
+  color: #fff;
 }
